@@ -1,0 +1,25 @@
+.card{
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color_tertiary);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.conten_icon{
+  display: flex;
+  font-size: 24px;
+  padding-bottom: .5rem;
+}
+.icon{
+  color: var(--color_text);
+}
+.title{
+  background-image: linear-gradient(to right, #833ab4, #e1306c);
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+.text{
+  padding: .5rem 0;
+  font-size: 14px;
+}

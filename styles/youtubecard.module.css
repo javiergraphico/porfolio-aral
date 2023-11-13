@@ -1,0 +1,21 @@
+.card{
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color_tertiary);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.conten_icon{
+  display: flex;
+  color: red;
+  font-size: 44px;
+  padding-bottom: .5rem;
+}
+.text{
+  padding: .5rem 0;
+  font-size: 14px;
+}
+.conten_button{
+  display: flex;
+  overflow: hidden;
+}

@@ -1,0 +1,21 @@
+.darkmode{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+}
+.icon_luna{
+  font-size: 25px;
+  
+}
+.icon_sol{
+  font-size: 25px;
+  color: #fff;
+}

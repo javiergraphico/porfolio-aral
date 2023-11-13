@@ -1,0 +1,33 @@
+/* contenido del main */
+
+.title_color{
+  color: var(--color_primary);
+  position: relative;
+}
+.title_color::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 40%;
+  left: 0;
+  background-color: var(--color_secondary); /* Ajusta la opacidad según tus preferencias */
+  transform: rotate(-2deg);
+  z-index: -1;
+}
+
+.description{
+  color: var(--color_quaternary);
+  padding-top: 1.5rem;
+}
+.article_h2{
+  padding-top: 4rem;
+}
+.article_dos{
+  padding-top: 1.5rem;
+  color: var(--color_quaternary);
+}
+.article_dos_dos{
+  
+  color: var(--color_quaternary);
+}

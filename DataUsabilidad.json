@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "svg": "/img_icon01.svg",
+    "title": "Usability Testing",
+    "description": "Lorem Ipsum fue popularizado por el fabricante de tipografía publicitarias. Letraset ofrecía páginas de que fueron ampliamente utilizadas en la era anterior a los ordenadores para los diseños."
+  },
+  {
+    "id": 2,
+    "svg": "/img_icon02.svg",
+    "title": "User Research",
+    "description": "Lorem Ipsum fue popularizado por el fabricante de tipografía publicitarias. Letraset ofrecía páginas de que fueron ampliamente utilizadas en la era anterior a los ordenadores para los diseños."
+    
+  },
+  {
+    "id": 3,
+    "svg": "/img_icon03.svg",
+    "title": "Prototyping",
+    "description": "Lorem Ipsum fue popularizado por el fabricante de tipografía publicitarias. Letraset ofrecía páginas de que fueron ampliamente utilizadas en la era anterior a los ordenadores para los diseños."
+    
+  },
+  {
+    "id": 4,
+    "svg": "/img_icon04.svg",
+    "title": "Information Architecture",
+    "description": "Lorem Ipsum fue popularizado por el fabricante de tipografía publicitarias. Letraset ofrecía páginas de que fueron ampliamente utilizadas en la era anterior a los ordenadores para los diseños."
+  },
+  {
+    "id": 5,
+    "svg": "/img_icon05.svg",
+    "title": "Data Visualization",
+    "description": "Lorem Ipsum fue popularizado por el fabricante de tipografía publicitarias. Letraset ofrecía páginas de que fueron ampliamente utilizadas en la era anterior a los ordenadores para los diseños."
+  },
+  {
+    "id": 6,
+    "svg": "/img_icon06.svg",
+    "title": "Software Development",
+    "description": "Lorem Ipsum fue popularizado por el fabricante de tipografía publicitarias. Letraset ofrecía páginas de que fueron ampliamente utilizadas en la era anterior a los ordenadores para los diseños."
+  }
+
+]

@@ -1,0 +1,8 @@
+.imagen_conten{
+  padding: 2rem 0;
+  display: flex;
+}
+.imagen_circle{
+  border-radius: 50%;
+  object-fit: cover;
+}

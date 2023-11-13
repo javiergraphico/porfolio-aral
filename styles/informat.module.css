@@ -1,0 +1,23 @@
+.grid_card{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 5rem 0;
+}
+@media screen and (min-width: 968px) {
+  .grid_card{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.card{
+  border-radius: 0.5rem;
+  border: 1px solid var(--color_tertiary);
+  padding: 1.5rem;
+}
+.title{
+  padding: 1rem 0;
+}
+.description{
+  color: var(--color_quaternary);
+  padding-top: 1rem;
+}

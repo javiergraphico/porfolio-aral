@@ -1,0 +1,54 @@
+.title_h2{
+  padding: 2rem 0;
+}
+.list{
+  padding: 0.5rem 0;
+  list-style: none;
+}
+.item{
+  position: relative;
+}
+.grid_resumen{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  gap: 1rem;
+}
+.linea{
+  position: absolute;
+  left: 0;
+  height: 100%;
+  margin-left: 24px;
+  border-left: 1px solid var(--color_linea);
+  z-index: 1;
+}
+.img_logo{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color_Bg_img);
+  border: 1px solid var(--color_linea);
+}
+
+.codepen{
+  position: absolute;
+  top: -17px;
+  left: 14px;
+  color: var(--color_linea);
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  z-index: 99;
+}
+
+.title_h3{
+  padding: .5rem 0;
+}
+.job{
+  padding-bottom: .5rem;
+}
+.description{
+  padding-bottom: 1rem;
+}
