@@ -14,16 +14,13 @@
   justify-content: space-between;
   width: 100%;
   color: var(--color_text);
+  gap: 1rem;
 }
 .conten_row{
   width: 49%;
 }
-.conten_row > label {
-  font-size: 16px;
-  color: var(--color_text);
-  margin-bottom: 5px;
-}
-.conten_row > label {
+.conten_row > .first {
+  display: inline-block;
   font-size: 16px;
   color: var(--color_text);
   margin-bottom: 5px;

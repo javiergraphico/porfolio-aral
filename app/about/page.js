@@ -6,6 +6,8 @@ import ResumenAbout from '@/components/ResumenAbout'
 import CardSinfondo from '@/components/CardSinfondo'
 import CardYoutube from '@/components/CardYoutube'
 import CardInstagram from '@/components/CardInstagram'
+import CardCv from '@/components/CardCv'
+
 
 const About = () => {
   return (
@@ -21,6 +23,7 @@ const About = () => {
           </main>
           <aside className={styles.sidebar}>
             <CardSinfondo />
+            <CardCv />
             <CardYoutube />
             <CardInstagram />
           </aside>
