@@ -13,13 +13,13 @@ const Footer = () => {
         <div className={styles.footer_content}>
           <p className={styles.copyright}>Copyright &copy; Javiergraphico. All Rights Reserved</p>
           <div className={styles.sociales}>
-            <Link href="https://www.behance.net/javiertovar" target="_blank">
+            <Link href="https://www.behance.net/javiertovar" target="_blank" aria-label="Behance">
               <FaBehance className={styles.icons} width={30} height={30} />
             </Link>
-            <Link href="https://www.linkedin.com/in/javier-tovar-46687a177/" target="_blank">
+            <Link href="https://www.linkedin.com/in/javier-tovar-46687a177/" target="_blank" aria-label="Linkedin">
               <FaLinkedinIn className={styles.icons} width={30} height={30}/>
             </Link>
-            <Link href="https://github.com/javiertovar" target="_blank">
+            <Link href="https://github.com/javiertovar" target="_blank" aria-label="GitHub">
               <FaGithubAlt className={styles.icons} width={30} height={30}/>
             </Link>
           </div>
