@@ -17,7 +17,7 @@
 }
 
 .description{
-  color: var(--color_quaternary);
+  color: var(--color_text);
   padding-top: 1.5rem;
 }
 .article_h2{
@@ -25,9 +25,9 @@
 }
 .article_dos{
   padding-top: 1.5rem;
-  color: var(--color_quaternary);
+  color: var(--color_text);
 }
 .article_dos_dos{
   
-  color: var(--color_quaternary);
+  color: var(--color_text);
 }
