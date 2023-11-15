@@ -8,7 +8,9 @@ const DownloadButton = () => {
     const cvUrl = "/Cv-javier-Tovar.pdf"; // Reemplaza con la ruta correcta de tu CV en la carpeta "public"
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "Cv-javier-Tovar.pdf"; // Puedes cambiar el nombre del archivo de descarga si lo deseas
+    // link.download = "Cv-javier-Tovar.pdf"; // Puedes cambiar el nombre del archivo de descarga si lo deseas
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
     link.click();
   };
 
