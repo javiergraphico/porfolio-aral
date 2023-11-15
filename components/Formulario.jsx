@@ -10,34 +10,14 @@ const Formulario = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-  
-    try {
-      const response = await fetch('https://porfolio-aral.vercel.app/api/sendEmail', {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ 
-          name, 
-          last, 
-          email, 
-          message 
-        }),
-      });
-  
-      if (response.ok) {
-        console.log("Email enviado satisfactoriamente");
-        // Puedes redirigir al usuario o realizar otras acciones después de enviar el correo
-      } else {
-        console.error("Error al enviar el email:", response.status, response.statusText);
-      }
-    } catch (error) {
-      console.error("Error al enviar el email:", error);
-    }
+    console.log(name, last, email, message);
+    setName("");
+    setLast("");
+    setEmail("");
+    setMessage("");
   };
-  
 
   return (
     <>
@@ -54,6 +34,7 @@ const Formulario = () => {
               name="name"
               onChange={(e) => setName(e.target.value)}
               value={name}
+              required
             />
           </div>
           <div className={styles.conten_row}>
@@ -67,6 +48,7 @@ const Formulario = () => {
               name="last"
               onChange={(e) => setLast(e.target.value)}
               value={last}
+              required
             />
           </div>
         </div>
@@ -82,6 +64,8 @@ const Formulario = () => {
             name="email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
+            //La propiedad required en JavaScript se utiliza para indicar si un campo de entrada input debe ser completado
+            required
           />
         </div>
 
