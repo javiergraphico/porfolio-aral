@@ -14,7 +14,7 @@ const Formulario = () => {
     e.preventDefault();
   
     try {
-      const response = await fetch("/api/sendEmail", {
+      const response = await fetch('https://porfolio-aral.vercel.app/api/sendEmail', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
